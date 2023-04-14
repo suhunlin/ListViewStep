@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <RelativeLayout
         android:id="@+id/topLine"
         android:layout_width="match_parent"
@@ -25,7 +24,7 @@
             />
 
         <EditText
-            android:id="@+id/userInput"
+            android:id="@+id/userInputEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@id/addBtn"
@@ -36,7 +35,7 @@
         />
     </RelativeLayout>
     <ListView
-        android:id="@+id/dataList"
+        android:id="@+id/dataListView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/topLine"
